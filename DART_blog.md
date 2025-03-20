@@ -4,3 +4,5 @@ DART里面有一系列的观测，例如``RADIOSONDE_U_WIND_COMPONENT``。但是
 
 **如果需要添加新观测，例如linfan和haoxing使用的FY4A-GIIRS，只需在``obs_def_rttov_mod.f90``中的*注释*部分添加观测类型，即`FY4_1_GIIRS_TB,               QTY_BRIGHTNESS_TEMPERATURE**`
 
+### 2025.3.20
+今天知道了为什么要这样弄obs...DART不支持RTTOV12.3之前的版本，编译DART+RTTOV的时候得专门装一个RTTOV12.3来满足环境
