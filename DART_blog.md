@@ -6,3 +6,6 @@ DART里面有一系列的观测，例如``RADIOSONDE_U_WIND_COMPONENT``。但是
 
 ### 2025.3.20
 今天知道了为什么要这样弄obs...DART不支持RTTOV12.3之前的版本，编译DART+RTTOV的时候得专门装一个RTTOV12.3来满足环境
+
+### 2025.4.14
+DART localization : vertical localization radius = 2 * cutoff * vert_normalization_height
