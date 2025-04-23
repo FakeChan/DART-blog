@@ -9,3 +9,5 @@ DART里面有一系列的观测，例如``RADIOSONDE_U_WIND_COMPONENT``。但是
 
 ### 2025.4.14
 DART localization : vertical localization radius = 2 * cutoff * vert_normalization_height
+### 2025.4.23
+如果需要在wrf_state_variables里面添加新的需要更新的变量，需要在model_mod.f90中static_init_model模块自行添加
