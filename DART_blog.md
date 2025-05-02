@@ -14,4 +14,4 @@ DART localization : vertical localization radius = 2 * cutoff * vert_normalizati
 
 
 ## localization
-ocean vars在WRF-DART里面的垂直坐标没有默认的读入，需要在model_mod里面自行更改，位置处于``convert_vertical_state``这个子程序中。
+ocean vars在WRF-DART里面的垂直坐标没有默认的读入，需要在model_mod里面自行更改，位置处于``model_height_distrib``这个子程序中。
